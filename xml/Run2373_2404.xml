@@ -1,0 +1,938 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE testBeamGeometry SYSTEM '../dtd/geometry.dtd'>
+<!--   Author  : D. Menasce, S. Terzo   -->
+<!--   @version: 1.0                    -->
+<testBeamGeometry run="23" description="Telescope alignment is ok; DUT aligned as well" date="11/12/2010">
+  <stations inUse="3">
+    <station serial="0" description="" id="0" used="yes">
+      <detectors inUse="4">
+        <detector serial="0" description="" id="0" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>1.95696</xPosition>
+            <yPosition>1.09248</yPosition>
+            <zPosition>38.3</zPosition>
+            <xRotation>-25</xRotation>
+            <yRotation>     0   </yRotation>
+            <zRotation>     0   </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>0.000132684</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.00110734</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-0.597072</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>-0.175691</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>0.00757089</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>0.010.6091375</standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_6.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_0_0_7.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" description="" id="1" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>2.11352</xPosition>
+            <yPosition>1.13599</yPosition>
+            <zPosition>34.4</zPosition>
+            <xRotation>-25</xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>0.0011621</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.021997</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>0</zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-0.582252</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>2.55256</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>-0.591186</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_6.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_10_7.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="2" description="" isDUT="no" id="2" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.922856</xPosition>
+            <yPosition>1.08602</yPosition>
+            <zPosition>24.3</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>25</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>-0.00555534</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.0107642</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-0.498268</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>0.568178</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>-0.447715</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_20_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="3" description="" id="3" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes   </xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.880079</xPosition>
+            <yPosition>1.18674</yPosition>
+            <zPosition>20.4</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>25</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>-0.0131776</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.00882091</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-1.80031</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>0.274562</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>-0.610565</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>DownstreamTelescope_2011_10_19_1_150_25_30_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+    <station serial="1" description="" id="4" used="yes">
+      <detectors inUse="2">
+        <detector serial="0" isDUT="yes" description="" id="0" name="DUT" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.476605</xPosition>
+            <yPosition>0.286576</yPosition>
+            <zPosition>2</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>0</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>0</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>0</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>0</zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>0</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>0</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>0</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="1" xChipsNumber="1" inUse="1">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>second_FBKs_2_0_0.txt</calibrationFilePath>
+              <standardRowPitch>0.010</standardRowPitch>
+              <standardColPitch>0.015</standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>0</orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" isDUT="yes" description="" id="1" name="DUT2" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.444024</xPosition>
+            <yPosition>0.29719</yPosition>
+            <zPosition>-2</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>0</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>0</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>0</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="1" xChipsNumber="1" inUse="1">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>second_FBKs_2_10_0.txt</calibrationFilePath>
+              <standardRowPitch>0.010</standardRowPitch>
+              <standardColPitch>0.015</standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>51</MAX_COLS>
+              <orientation>0</orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+    <station serial="2" description="" id="2" used="yes">
+      <detectors inUse="4">
+        <detector serial="0" description="" isDUT="no" id="0" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.760129</xPosition>
+            <yPosition>1.3568</yPosition>
+            <zPosition>-20.4</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>25</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>-0.00289589</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.00937565</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-1.24258</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>0.19533</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>0.0376734</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_0_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" description="" isDUT="no" id="1" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes  </xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>0.608032</xPosition>
+            <yPosition>1.30837</yPosition>
+            <zPosition>-24.3</zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>25</yRotation>
+            <zRotation>90</zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>0.0028936</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.0119871</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-1.56799</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>-0.223311</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>-0.773578</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_10_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="2" description="" isDUT="no" id="2" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>1.74445</xPosition>
+            <yPosition>1.0495</yPosition>
+            <zPosition>-34.4</zPosition>
+            <xRotation>-25</xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>-0.00652674</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.0212514</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>0</zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-0.858004</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>0.708323</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>-1.13841</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_6.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="07" id="7" pos="7" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_20_7.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="3" description="" isDUT="no" id="3" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>yes</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>1.91788</xPosition>
+            <yPosition>1.25916</yPosition>
+            <zPosition>-38.3</zPosition>
+            <xRotation>-25</xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>0.000317669</xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>-0.00036604</yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>-1.29529</xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>-0.374994</yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>0.0932842</zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_0.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_1.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_2.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_3.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_4.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_5.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_6.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>UpstreamTelescope_2011_10_19_1_150_25_1_30_7.txt</calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+  </stations>
+</testBeamGeometry>

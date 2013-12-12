@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE MonicelliExpressConfiguration SYSTEM "./dtd/ExpressConfiguration.dtd">
+<MonicelliExpressConfiguration>
+  <Defaults FilesPath="/home/akrzywda/Programming/2013_11_November/Merged/" 
+           GeometriesPath="/home/akrzywda/Programming/2013_11_November/MonicelliOutput/" 
+           TrackFindingAlgorithm="FirstAndLast" 
+	   NumberOfEvents="-1" 
+	   TrackPoints="8" 
+	   MaxPlanePoints="5" 
+	   Chi2Cut="-1" 
+	   XTolerance="250" 
+	   YTolerance="250"
+	   FindDut="true"
+	   UseEtaFunction="false"/>
+ <File Name="Run3041.dat" Geometry="Run3044.geo" />
+ <File Name="Run3042.dat" Geometry="Run3044.geo" />
+ <File Name="Run3045.dat" Geometry="Run3044.geo" />
+ <File Name="Run3046.dat" Geometry="Run3044.geo" />
+ <File Name="Run3047.dat" Geometry="Run3044.geo" />
+ <File Name="Run3048.dat" Geometry="Run3044.geo" />
+ <File Name="Run3049.dat" Geometry="Run3044.geo" />
+ <File Name="Run3050.dat" Geometry="Run3044.geo" />
+ <File Name="Run3051.dat" Geometry="Run3044.geo" />
+ <File Name="Run3052.dat" Geometry="Run3044.geo" />
+ <File Name="Run3053.dat" Geometry="Run3044.geo" />
+ <File Name="Run3054.dat" Geometry="Run3044.geo" />
+ <File Name="Run3055.dat" Geometry="Run3044.geo" />
+ <File Name="Run3056.dat" Geometry="Run3044.geo" />
+ <File Name="Run3057.dat" Geometry="Run3044.geo" />
+ <File Name="Run3061.dat" Geometry="Run3044.geo" />
+ <File Name="Run3062.dat" Geometry="Run3044.geo" />
+ <File Name="Run3063.dat" Geometry="Run3044.geo" />
+ <File Name="Run3064.dat" Geometry="Run3044.geo" />
+ <File Name="Run3065.dat" Geometry="Run3044.geo" />
+ <File Name="Run3066.dat" Geometry="Run3044.geo" />
+ <File Name="Run3067.dat" Geometry="Run3044.geo" />
+ <File Name="Run3068.dat" Geometry="Run3044.geo" />
+ <File Name="Run3069.dat" Geometry="Run3044.geo" />
+ <File Name="Run3070.dat" Geometry="Run3044.geo" />
+ <File Name="Run3071.dat" Geometry="Run3044.geo" />
+ <File Name="Run3072.dat" Geometry="Run3044.geo" />
+ <File Name="Run3073.dat" Geometry="Run3044.geo" />
+ <File Name="Run3074.dat" Geometry="Run3044.geo" />
+ <File Name="Run3075.dat" Geometry="Run3044.geo" />
+ <File Name="Run3076.dat" Geometry="Run3044.geo" />
+ <File Name="Run3077.dat" Geometry="Run3044.geo" />
+ <File Name="Run3078.dat" Geometry="Run3044.geo" />
+ <File Name="Run3079.dat" Geometry="Run3044.geo" />
+ <File Name="Run3080.dat" Geometry="Run3044.geo" />
+ <File Name="Run3081.dat" Geometry="Run3044.geo" />
+ <File Name="Run3082.dat" Geometry="Run3044.geo" />
+ <File Name="Run3083.dat" Geometry="Run3044.geo" />
+ <File Name="Run3084.dat" Geometry="Run3044.geo" />
+ <File Name="Run3085.dat" Geometry="Run3044.geo" />
+ <File Name="Run3086.dat" Geometry="Run3044.geo" />
+ <File Name="Run3087.dat" Geometry="Run3044.geo" />
+ <File Name="Run3088.dat" Geometry="Run3044.geo" />
+ <File Name="Run3089.dat" Geometry="Run3044.geo" />
+ <File Name="Run3090.dat" Geometry="Run3044.geo" />
+ <File Name="Run3091.dat" Geometry="Run3044.geo" />
+ <File Name="Run3092.dat" Geometry="Run3044.geo" />
+ <File Name="Run3093.dat" Geometry="Run3044.geo" />
+ <File Name="Run3094.dat" Geometry="Run3044.geo" />
+ <File Name="Run3095.dat" Geometry="Run3044.geo" />
+ <File Name="Run3096.dat" Geometry="Run3044.geo" />
+ <File Name="Run3097.dat" Geometry="Run3044.geo" />
+ <File Name="Run3098.dat" Geometry="Run3044.geo" />
+ <File Name="Run3099.dat" Geometry="Run3044.geo" />
+ <File Name="Run3100.dat" Geometry="Run3044.geo" />
+ <File Name="Run3101.dat" Geometry="Run3044.geo" />
+ <File Name="Run3102.dat" Geometry="Run3044.geo" />
+
+</MonicelliExpressConfiguration>
+

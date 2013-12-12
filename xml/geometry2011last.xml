@@ -1,0 +1,1180 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE testBeamGeometry SYSTEM '../dtd/geometry.dtd'>
+<!--   Author  : D. Menasce, S. Terzo   -->
+<!--   @version: 1.0                    -->
+<testBeamGeometry run="23" date="11/12/2010">
+  <stations inUse="3">
+    <station serial="0" description="" id="0" used="yes">
+      <detectors inUse="4">
+        <detector serial="0" description="" id="0" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes </xBackFlipped>
+            <yBackFlipped>  yes</yBackFlipped>
+            <xPosition>     0   </xPosition>
+            <yPosition>     0   </yPosition>
+            <zPosition>     43   </zPosition>
+            <xRotation>    -26  </xRotation>
+            <yRotation>     0   </yRotation>
+            <zRotation>     0   </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  -0.78534  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0.73916  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -1.06476  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_0_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" description="" id="1" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>  yes  </yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     41    </zPosition>
+            <xRotation>    -26   </xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection> -0.75292  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  1.15267  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -0.889418  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_10_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="2" description="" id="2" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>    27    </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>    26    </yRotation>
+            <zRotation>    270    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  1.41756  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  1.64956  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  0.290577  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_20_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="3" description="" id="3" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes   </xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     25   </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>     26</yRotation>
+            <zRotation>     270  </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  1.46242  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  1.36684  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  1.89972  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_0_30_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+    <station serial="1" description="" id="4" used="yes">
+      <detectors inUse="2">
+        <detector serial="0" isDUT="yes" description="" id="0" name="DUT" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>  yes  </yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     5   </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0  </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  0  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  0  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="1" xChipsNumber="1" inUse="1">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_0_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" isDUT="yes" description="" id="1" name="DUT2" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>  yes   </yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     -7   </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0  </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  0  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  0  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="1" xChipsNumber="1" inUse="1">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    DUT_CAL_FBK_3RD_DUTS_3_23_2011_0_10_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+    <station serial="2" description="" id="2" used="yes">
+      <detectors inUse="4">
+        <detector serial="0" description="" id="0" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     -25   </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>    26    </yRotation>
+            <zRotation>     270   </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  -0.85222  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0.05534  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -0.08467  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_0_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="1" description="" id="1" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes  </xBackFlipped>
+            <yBackFlipped>no</yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>    -27   </zPosition>
+            <xRotation>     0    </xRotation>
+            <yRotation>    26    </yRotation>
+            <zRotation>     270   </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  -1.20037  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  -0.02772  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -0.56304  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="3" inUse="6">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_4.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="no">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_10_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>      0    </MAX_ROWS>
+              <MAX_COLS>      0    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="2" description="" id="2" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>  yes   </xBackFlipped>
+            <yBackFlipped>  yes   </yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     -41   </zPosition>
+            <xRotation>    -26</xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  0.26514  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  0.92503  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -0.5784  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_20_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_20_1.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_3_24_2011_2_20_2.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>   TELESCOPE_CAL_large_step_3_30_2011_2_20_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>   TELESCOPE_CAL_large_step_3_30_2011_2_20_4.txt    </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_20_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_20_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="07" id="7" pos="7" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_20_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+        <detector serial="3" description="" id="3" name="CMS FPIX" used="yes">
+          <largeGranularity relativeRotations="beam">
+            <xBackFlipped>no</xBackFlipped>
+            <yBackFlipped>  yes   </yBackFlipped>
+            <xPosition>     0    </xPosition>
+            <yPosition>     0    </yPosition>
+            <zPosition>     -43   </zPosition>
+            <xRotation>    -26</xRotation>
+            <yRotation>     0    </yRotation>
+            <zRotation>     0    </zRotation>
+          </largeGranularity>
+          <fineGranularity relativeRotations="beam">
+            <xPosCorrection>       0  </xPosCorrection>
+            <xPositionError>            0  </xPositionError>
+            <yPosCorrection>       0  </yPosCorrection>
+            <yPositionError>            0  </yPositionError>
+            <zPosCorrection>       0  </zPosCorrection>
+            <zPositionError>            0  </zPositionError>
+            <xRotationCorrection>  0.38699  </xRotationCorrection>
+            <xRotationCorrectionError>  0  </xRotationCorrectionError>
+            <yRotationCorrection>  1.08509  </yRotationCorrection>
+            <yRotationCorrectionError>  0  </yRotationCorrectionError>
+            <zRotationCorrection>  -1.00389  </zRotationCorrection>
+            <zRotationCorrectionError>  0  </zRotationCorrectionError>
+          </fineGranularity>
+          <ROCs yChipsNumber="2" xChipsNumber="4" inUse="8">
+            <ROC serial="0" id="0" pos="0" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_0.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="1" id="1" pos="1" used="yes">
+              <calibrationFilePath>   TELESCOPE_CAL_large_step_3_30_2011_2_30_1.txt    </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="2" id="2" pos="2" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_2.txt  </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="3" id="3" pos="3" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_3.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>   0    </orientation>
+            </ROC>
+            <ROC serial="4" id="4" pos="4" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_4.txt  </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="5" id="5" pos="5" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_5.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="6" id="6" pos="6" used="yes">
+              <calibrationFilePath>    TELESCOPE_CAL_large_step_3_30_2011_2_30_6.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+            <ROC serial="7" id="7" pos="7" used="yes">
+              <calibrationFilePath>   TELESCOPE_CAL_large_step_3_30_2011_2_30_7.txt   </calibrationFilePath>
+              <standardRowPitch>   0.010   </standardRowPitch>
+              <standardColPitch>   0.015   </standardColPitch>
+              <nonStandardRowPitch rowNum="79">   0.02  </nonStandardRowPitch>
+              <nonStandardColPitch colNum="0">    0.03  </nonStandardColPitch>
+              <nonStandardColPitch colNum="51">   0.03  </nonStandardColPitch>
+              <MAX_ROWS>     79    </MAX_ROWS>
+              <MAX_COLS>     51    </MAX_COLS>
+              <orientation>  180   </orientation>
+            </ROC>
+          </ROCs>
+        </detector>
+      </detectors>
+    </station>
+  </stations>
+</testBeamGeometry>

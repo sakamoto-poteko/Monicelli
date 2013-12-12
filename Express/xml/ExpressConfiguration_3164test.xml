@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE MonicelliExpressConfiguration SYSTEM "./dtd/ExpressConfiguration.dtd">
+<MonicelliExpressConfiguration>
+  <Defaults FilesPath="/home/akrzywda/Programming/2013_11_November/Merged/" 
+           GeometriesPath="/home/akrzywda/Programming/2013_11_November/MonicelliOutput/" 
+           TrackFindingAlgorithm="FirstAndLast" 
+	   NumberOfEvents="-1" 
+	   TrackPoints="8" 
+	   MaxPlanePoints="5" 
+	   Chi2Cut="-1" 
+	   XTolerance="250" 
+	   YTolerance="250"
+	   FindDut="true"
+	   UseEtaFunction="false"/>
+ <!--File Name="Run888_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run889_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run890_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run891_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run892_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run893_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run894_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run895_Merged.dat" Geometry="Run888.geo" />
+ <File Name="Run896_Merged.dat" Geometry="Run888.geo" /-->
+ <File Name="Run3165.dat" Geometry="Run3164_stable.geo" />
+ <!--File Name="Run915_Merged.dat" Geometry="Run916.geo" />
+ <File Name="Run916_Merged.dat" Geometry="Run916.geo" />
+ <File Name="Run919_Merged.dat" Geometry="Run916.geo" />
+ <File Name="Run920_Merged.dat" Geometry="Run916.geo" />
+ <File Name="Run921_Merged.dat" Geometry="Run916.geo" /-->
+
+</MonicelliExpressConfiguration>
+
