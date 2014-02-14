@@ -314,14 +314,6 @@ void ROC::setCalibrationFunction(int row, int col, double *par, double *cov)//, 
 //============================================================================
 double* ROC::getCalibrationFunction(int row, int col)
 {
-    if (useWeibullFunc) {
-        par_[0] = -1.5e5;
-        par_[1] = 1.5e5;
-        par_[2] = 2381;
-        par_[3] = 226.7;
-        par_[4] = 9.773;
-        return par_;
-    }
     if( pixelCalibrationFunctionTmp_.count(row) && pixelCalibrationFunctionTmp_[row].count(col))
         for(unsigned int i=0; i < pixelCalibrationFunctionTmp_[row][col].size(); i++)
             par_[i] = pixelCalibrationFunctionTmp_[row][col][i] ;
