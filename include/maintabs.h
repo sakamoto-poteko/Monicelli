@@ -261,6 +261,7 @@ private slots:
     bool on_loadXMLGeometryPB_clicked();
     bool on_loadGeoGeometryPB_clicked();
     void on_geometryClearAllCorrectionsPB_clicked();
+    void on_cbUseWeibullFunc_toggled(bool checked);
 };
 
 #endif // MAINTABS_H

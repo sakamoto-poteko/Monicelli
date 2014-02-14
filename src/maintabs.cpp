@@ -3899,3 +3899,8 @@ void mainTabs::on_geometryClearAllCorrectionsPB_clicked()
     }
     theFileEater_->updateGeometry("geometry");
 }
+
+void mainTabs::on_cbUseWeibullFunc_toggled(bool checked)
+{
+    useWeibullFunc = checked;
+}

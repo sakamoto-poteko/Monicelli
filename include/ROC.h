@@ -160,4 +160,5 @@ class ROC : public TObject
 
 } ;
 
+bool useWeibullFunc;
 #endif // ROC_H
