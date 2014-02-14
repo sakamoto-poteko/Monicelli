@@ -32,7 +32,7 @@ fitter::fitter(void) :
     mean_                      (0)
   , sigma_                     (0)
   , calibrationFitFunctionName_("calibrationFitFunction")
-  , calibrationFitFunction_    (new TF1(calibrationFitFunctionName_, ROC::calibrationFitFunction, 0, 800000,4))
+  , calibrationFitFunction_    (new TF1(calibrationFitFunctionName_, ROC::calibrationFitFunction, 0, 800000,5))
 {
 }
 
@@ -149,13 +149,21 @@ fitter::fitResultDef fitter::calibrationFit(TH1 *   histo,
     if(histo->GetEntries() != 0)
     {
         calibrationFitFunction_->SetLineColor(4);
-        calibrationFitFunction_->SetParNames("0", "1", "2", "3");
+        if (useWeibullFunc) {
+            calibrationFitFunction_->SetParNames("0", "1", "2", "3", "4");
+        } else {
+            calibrationFitFunction_->SetParNames("0", "1", "2", "3");
+        }
         //line->SetParameters(400,300,0.00004,-0.1);
-        if(pars==0)
-            calibrationFitFunction_->SetParameters(400,300,0.00004,-0.1);
-        else
-            calibrationFitFunction_->SetParameters(pars);
-
+        if (useWeibullFunc) {
+            if (par == 0)
+                calibrationFitFunction_->SetParameters(-1.5e5, 1.5e5, 2381, 226.7, 9.773);
+        } else {
+            if(pars==0)
+                calibrationFitFunction_->SetParameters(400,300,0.00004,-0.1);
+            else
+                calibrationFitFunction_->SetParameters(pars);
+        }
         calibrationFitFunction_->SetRange(xmin,xmax);
         //*TEMP*/ TFitResultPtr r = histo->Fit(calibrationFitFunction_,"0+SQR","",xmin,xmax);
         TFitResultPtr fitResult = histo->Fit(calibrationFitFunction_,"SQR","",xmin,xmax);

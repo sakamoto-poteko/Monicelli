@@ -30,7 +30,7 @@ ROC::ROC(unsigned int position, int chipID, unsigned int degrees) :
 double ROC::calibrationFitFunction(double *x, double *par)
 {
     if (useWeibullFunc)
-        return ( 9.773 + 226.7 * (1 - exp(-pow(((x - (-1.5e5)) / 1.5e5), 2381))) );
+        return (par[4] + par[3] * (1 - exp(-pow(((x[0] - (-par[0])) / par[1]), par[2]))) );
     else
         return par[0]+par[1]*tanh(par[2]*x[0]+par[3]);
 }
@@ -39,7 +39,7 @@ double ROC::calibrationFitFunction(double *x, double *par)
 double ROC::calibrationFitFunctionInv(double *x, double *par)
 {
     if (useWeibullFunc)
-        return (1.5e5 * pow((-log(1 - (x - 9.773) / 2381)), (1 / 1.5e5)) + (-1.5e5));
+        return (par[1] * pow((-log(1 - (x[0] - par[4]) / par[3])), (1 / par[2])) + (-par[0]));
     else
         return (atanh((x[0]-par[0])/par[1]) - par[3])/par[2];
 }
@@ -314,6 +314,14 @@ void ROC::setCalibrationFunction(int row, int col, double *par, double *cov)//, 
 //============================================================================
 double* ROC::getCalibrationFunction(int row, int col)
 {
+    if (useWeibullFunc) {
+        par_[0] = -1.5e5;
+        par_[1] = 1.5e5;
+        par_[2] = 2381;
+        par_[3] = 226.7;
+        par_[4] = 9.773;
+        return par_;
+    }
     if( pixelCalibrationFunctionTmp_.count(row) && pixelCalibrationFunctionTmp_[row].count(col))
         for(unsigned int i=0; i < pixelCalibrationFunctionTmp_[row][col].size(); i++)
             par_[i] = pixelCalibrationFunctionTmp_[row][col][i] ;

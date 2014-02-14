@@ -143,7 +143,7 @@ class ROC : public TObject
 //   pixelCalibrationsMapDef       pixelCalibrationFunction_            ;//! temporary state value
    pixelCalibrationsTmpMapDef    pixelCalibrationFunctionTmp_         ;
    pixelCalibrationsCovDef       pixelCalibrationCovMat_              ;
-   double                        par_[4]                              ;
+   double                        par_[5]                              ;
 
    //Roc properties set by the detector (plaquette) the rocs belong to
    unsigned int                  xLocalPosition_;
@@ -160,5 +160,5 @@ class ROC : public TObject
 
 } ;
 
-bool useWeibullFunc;
+extern bool useWeibullFunc;
 #endif // ROC_H
