@@ -67,9 +67,9 @@ HEADERS              = include/canvaswidget.h                    \
                        plugins/customSpinBox/customSpinBox.h     \
                        plugins/customTableView/customTableView.h \
                        tmp/EventDict.h                           \
-                       tmp/EventHeaderDict.h                     
+                       tmp/EventHeaderDict.h
 
-                                                                     
+
 SOURCES              = main.cpp                                  \
                        src/canvaswidget.cpp                      \
                        src/detectortabwidget.cpp                 \
@@ -77,7 +77,7 @@ SOURCES              = main.cpp                                  \
                        src/hnavigator.cpp                        \
                        src/mainwindow.cpp                        \
                        src/maintabs.cpp                          \
-                       src/mdichild.cpp                          \	 		
+                       src/mdichild.cpp                          \
                        src/newNonStandardTabDialog.cpp           \
                        src/nonstandardpitch.cpp                  \
                        src/remNonStandardTabDialog.cpp           \
@@ -110,7 +110,7 @@ SOURCES              = main.cpp                                  \
                        src/threader.cpp                          \
                        src/GeometryParameters.cpp                \
                        tmp/EventDict.C                           \
-                       tmp/EventHeaderDict.C                     
+                       tmp/EventHeaderDict.C
 
 RESOURCES            = Monicelli.qrc
 
@@ -119,8 +119,8 @@ sources.files        = $$SOURCES                                 \
                        $$RESOURCES                               \
                        $$FORMS                                   \
                        Monicelli.pro                             \
-                       images                                  
-                                                               
+                       images
+
 DEFINES              = USE_QT
 
 INCLUDEPATH         += ./include                                 \
@@ -135,14 +135,14 @@ INCLUDEPATH         += plugins/customCheckBox                    \
                        plugins/customSpinBox                     \
                        plugins/customTextEdit                    \
                        plugins/customTableView
-                       
+
 
 LIBS                += -L$(BOOSTLIB)                            \
                        -lboost_regex                            \
                        -lboost_system                           \
                        -lboost_filesystem
 
-LIBS                += -Lplugins/libs                            \
+LIBS                += -L$(HOME)/working/Monicelli/plugins/libs                            \
                        -lcustomCheckBox                          \
                        -lcustomComboBox                          \
                        -lcustomLineEdit                          \
@@ -198,7 +198,7 @@ SUBDIRS             += plugins/customComboBox                    \
                        plugins/customSpinBox                     \
                        plugins/customCheckBox                    \
                        plugins/customTableView
-
+QT += core gui
 QT *= xml
 
 DEPENDPATH += . src include

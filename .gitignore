@@ -3,3 +3,6 @@
 *.pro.user*
 *.*~
 Express/tmp
+tmp/*
+*.pro
+.gitignore

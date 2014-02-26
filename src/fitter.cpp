@@ -157,8 +157,8 @@ fitter::fitResultDef fitter::calibrationFit(TH1 *   histo,
         //line->SetParameters(400,300,0.00004,-0.1);
         if (useWeibullFunc) {
             if (par == 0)
-//                calibrationFitFunction_->SetParameters(-1.5e5, 1.5e5, 2381, 226.7, 9.773);
-                calibrationFitFunction_->SetParameters(0, 0, 0, 0, 0);
+                calibrationFitFunction_->SetParameters(-1.5e5, 1.5e5, 2381, 226.7, 9.773);
+//                calibrationFitFunction_->SetParameters(0, 0, 0, 0, 0);
         } else {
             if(pars==0)
                 calibrationFitFunction_->SetParameters(400,300,0.00004,-0.1);
@@ -178,7 +178,7 @@ fitter::fitResultDef fitter::calibrationFit(TH1 *   histo,
             STDLINE(ss_.str(), ACRed);
         }
     }
-    //std::cout << "Fitter par: " << par << " cal funk pars: " << calibrationFitFunction_->GetParameters() << std::endl;
+    std::cout << "Fitter par: " << par << " cal funk pars: " << calibrationFitFunction_->GetParameters() << std::endl;
     return std::make_pair(par,cov);
 
 }

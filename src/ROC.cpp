@@ -29,6 +29,7 @@ ROC::ROC(unsigned int position, int chipID, unsigned int degrees) :
 //===============================================================================
 double ROC::calibrationFitFunction(double *x, double *par)
 {
+    printf("Fit\n");
     if (useWeibullFunc)
         return (par[4] + par[3] * (1 - exp(-pow(((x[0] - (-par[0])) / par[1]), par[2]))) );
     else
@@ -38,8 +39,9 @@ double ROC::calibrationFitFunction(double *x, double *par)
 //===============================================================================
 double ROC::calibrationFitFunctionInv(double *x, double *par)
 {
+    printf("InvFit\n");
     if (useWeibullFunc)
-        return (par[1] * pow((-log(1 - (x[0] - par[4]) / par[3])), (1 / par[2])) + (-par[0]));
+        return (par[1] * pow((-log(1 - (x[0] - par[4]) / par[3])), (1 / par[2])) + par[0]);
     else
         return (atanh((x[0]-par[0])/par[1]) - par[3])/par[2];
 }

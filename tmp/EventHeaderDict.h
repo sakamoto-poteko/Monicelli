@@ -16,6 +16,7 @@
 #define G__DICTIONARY
 #define G__PRIVATE_GVALUE
 #include "G__ci.h"
+#include "FastAllocString.h"
 extern "C" {
 extern void G__cpp_setup_tagtableEventHeaderDict();
 extern void G__cpp_setup_inheritanceEventHeaderDict();
@@ -44,6 +45,8 @@ extern G__linked_taginfo G__EventHeaderDictLN_TMemberInspector;
 extern G__linked_taginfo G__EventHeaderDictLN_TObject;
 extern G__linked_taginfo G__EventHeaderDictLN_vectorlEROOTcLcLTSchemaHelpercOallocatorlEROOTcLcLTSchemaHelpergRsPgR;
 extern G__linked_taginfo G__EventHeaderDictLN_reverse_iteratorlEvectorlEROOTcLcLTSchemaHelpercOallocatorlEROOTcLcLTSchemaHelpergRsPgRcLcLiteratorgR;
+extern G__linked_taginfo G__EventHeaderDictLN_vectorlETVirtualArraymUcOallocatorlETVirtualArraymUgRsPgR;
+extern G__linked_taginfo G__EventHeaderDictLN_reverse_iteratorlEvectorlETVirtualArraymUcOallocatorlETVirtualArraymUgRsPgRcLcLiteratorgR;
 extern G__linked_taginfo G__EventHeaderDictLN_EventHeader;
 
 /* STUB derived class for protected member access */

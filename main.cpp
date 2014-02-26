@@ -85,20 +85,9 @@ int main(int argc, char *argv[])
 
     QPixmap pixmap(splashIcon.c_str());
 
-    QSplashScreen splash(pixmap);
-
-    splash.setMask(pixmap.mask());
-    splash.show();
-
     app.processEvents();
 
     window.show();
-
-    splash.raise() ;
-
-    sleep(1) ;
-
-    splash.finish(&window);
 
     std::string color = std::string(ACYellow)+std::string(ACBold)+std::string(ACReverse) ;
     STDLINE("",color);
